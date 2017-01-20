@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Shift {
+    
+    var finString = ""
+    var flag = 0
+    
+    
+    
+    
+    
+}

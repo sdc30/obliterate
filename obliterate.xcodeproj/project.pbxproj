@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4402018F1E31C36100C30F93 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4402018E1E31C36100C30F93 /* ThirdView.swift */; };
+		4406C6811C9F6D9D0008119B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406C6801C9F6D9D0008119B /* SecondView.swift */; };
+		4406C6831C9F6DDE0008119B /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406C6821C9F6DDE0008119B /* Shift.swift */; };
 		44A92AA81C9F6C6400EEE000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A92AA71C9F6C6400EEE000 /* AppDelegate.swift */; };
 		44A92AAA1C9F6C6400EEE000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A92AA91C9F6C6400EEE000 /* ViewController.swift */; };
 		44A92AAD1C9F6C6400EEE000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A92AAB1C9F6C6400EEE000 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4402018E1E31C36100C30F93 /* ThirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		4406C6801C9F6D9D0008119B /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		4406C6821C9F6DDE0008119B /* Shift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shift.swift; path = ../Shift.swift; sourceTree = "<group>"; };
 		44A92AA41C9F6C6400EEE000 /* obliterate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obliterate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A92AA71C9F6C6400EEE000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44A92AA91C9F6C6400EEE000 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 			children = (
 				44A92AA71C9F6C6400EEE000 /* AppDelegate.swift */,
 				44A92AA91C9F6C6400EEE000 /* ViewController.swift */,
+				4406C6801C9F6D9D0008119B /* SecondView.swift */,
+				4402018E1E31C36100C30F93 /* ThirdView.swift */,
+				4406C6821C9F6DDE0008119B /* Shift.swift */,
 				44A92AAB1C9F6C6400EEE000 /* Main.storyboard */,
 				44A92AAE1C9F6C6400EEE000 /* Assets.xcassets */,
 				44A92AB01C9F6C6400EEE000 /* LaunchScreen.storyboard */,
@@ -97,6 +106,7 @@
 					44A92AA31C9F6C6400EEE000 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 8678G77WJ7;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -136,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4406C6831C9F6DDE0008119B /* Shift.swift in Sources */,
+				4402018F1E31C36100C30F93 /* ThirdView.swift in Sources */,
 				44A92AAA1C9F6C6400EEE000 /* ViewController.swift in Sources */,
+				4406C6811C9F6D9D0008119B /* SecondView.swift in Sources */,
 				44A92AA81C9F6C6400EEE000 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ranger.lily.obliterate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -265,6 +279,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ranger.lily.obliterate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -287,6 +302,7 @@
 				44A92AB81C9F6C6400EEE000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
